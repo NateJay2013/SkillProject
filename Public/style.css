@@ -1,0 +1,22 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.canvas-wrapper {
+  padding: 20px;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  border: 2px solid grey;
+  display: block;
+}
